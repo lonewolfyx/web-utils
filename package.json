@@ -1,0 +1,45 @@
+{
+    "name": "@tendo-sect/web-utils",
+    "version": "0.0.3",
+    "private": false,
+    "type": "module",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "./script/build.sh"
+    },
+    "author": "lonewolfyx",
+    "license": "MIT",
+    "description": "web utils",
+    "keywords": [
+        "util",
+        "web utils",
+        "random"
+    ],
+    "homepage": "https://github.com/lonewolfyx/web-utils",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/web-utils/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lonewolfyx/web-random-utils.git"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.4.2",
+        "tsup": "^8.3.5",
+        "typescript": "^5.7.3"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    }
+}
