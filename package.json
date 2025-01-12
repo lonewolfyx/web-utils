@@ -1,6 +1,6 @@
 {
     "name": "@tendo-sect/web-utils",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "private": false,
     "type": "module",
     "main": "dist/index.cjs",
@@ -36,7 +36,8 @@
     "devDependencies": {
         "prettier": "^3.4.2",
         "tsup": "^8.3.5",
-        "typescript": "^5.7.3"
+        "typescript": "^5.7.3",
+        "vitest": "^2.1.8"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
